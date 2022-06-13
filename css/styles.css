@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.hero {
+  max-width: 1280px;
+  height: 500px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/1140-flying-books-illustration.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/1140-flying-books-illustration.jpg);
+  margin: -80px auto 0 auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero .title {
+  margin: 0 auto;
+  text-align: center;
+  color: lightpink;
+  position: relative;
+  top: 152px;
+}
+.hero .title h1 {
+  font-size: 60px;
+}
+.hero .title h3 {
+  font-size: 20px;
+}
+
+.form-content {
+  max-width: 818px;
+  min-height: 200px;
+  margin: 0 auto;
+}
+.form-content h1 {
+  font-size: 60px;
+  padding-bottom: 31px;
+}
+.form-content .top-box {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.form-content .top-box .long-box {
+  width: 453px;
+}
+.form-content .top-box .cal-box {
+  width: 698px;
+}
+.form-content .top-box .small-box {
+  width: 103px;
+}
+.form-content .top-box .holder {
+  width: 19px;
+  height: 19px;
+  position: relative;
+  top: -35px;
+  left: 660px;
+}
+.form-content .top-box .down-holder {
+  width: 19px;
+  height: 19px;
+  position: relative;
+  top: -35px;
+  left: 60px;
+}
+.form-content .top-box .message {
+  width: 818px;
+  height: 192px;
+  padding-left: 10px;
+  border: 2px solid lightpink;
+  color: black;
+  font-size: 18px;
+}
+.form-content .top-box input {
+  width: 344px;
+  height: 58px;
+  padding-left: 10px;
+  border-color: lightpink;
+  border-style: solid;
+  color: black;
+  font-size: 18px;
+}
+.form-content .button {
+  width: 813px;
+  height: 60px;
+  background-color: lightpink;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 30px;
+  margin-top: 37px;
+  margin-bottom: 100px;
+  color: white;
+  font-size: 15px;
+}
+.form-content .button h2 {
+  padding: 20px;
+}

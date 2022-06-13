@@ -1,0 +1,76 @@
+.form-content {
+  max-width: 818px;
+  min-height: 200px;
+  margin: 0 auto;
+}
+.form-content h1 {
+  font-size: 60px;
+  padding-bottom: 31px;
+}
+.form-content .top-box {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.form-content .top-box .long-box {
+  width: 453px;
+}
+.form-content .top-box .cal-box {
+  width: 698px;
+}
+.form-content .top-box .small-box {
+  width: 103px;
+}
+.form-content .top-box .holder {
+  width: 19px;
+  height: 19px;
+  position: relative;
+  top: -35px;
+  left: 660px;
+}
+.form-content .top-box .down-holder {
+  width: 19px;
+  height: 19px;
+  position: relative;
+  top: -35px;
+  left: 60px;
+}
+.form-content .top-box .message {
+  width: 818px;
+  height: 192px;
+  padding-left: 10px;
+  border: 2px solid lightpink;
+  color: black;
+  font-size: 18px;
+}
+.form-content .top-box input {
+  width: 344px;
+  height: 58px;
+  padding-left: 10px;
+  border-color: lightpink;
+  border-style: solid;
+  color: black;
+  font-size: 18px;
+}
+.form-content .button {
+  width: 813px;
+  height: 60px;
+  background-color: lightpink;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 30px;
+  margin-top: 37px;
+  margin-bottom: 100px;
+  color: white;
+  font-size: 15px;
+}
+.form-content .button h2 {
+  padding: 20px;
+}

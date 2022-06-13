@@ -1,0 +1,26 @@
+.hero {
+    max-width: 1280px;
+    height: 500px;
+    background-image: 
+    linear-gradient(
+        rgba(black,.5),
+        rgba(black,.5)
+        ), 
+        url(../images/1140-flying-books-illustration.jpg);    margin: -80px auto 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .title {
+        margin: 0 auto;
+        text-align: center;
+        color: lightpink;
+        position: relative;
+        top: 152px;
+        h1 {
+            font-size: 60px;
+        }
+        h3 {
+            font-size: 20px;
+        }
+    }
+}
